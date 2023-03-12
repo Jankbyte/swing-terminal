@@ -1,5 +1,5 @@
 ## :clipboard: Swing terminal
-**Swing terminal** - that's a component for swing-applications with easy integration.
+**Swing terminal** - that's a component for swing-applications, based on Jediterm, but with easy integration.
 Thats looks like:
 
 ![alt text](https://github.com/Jankbyte/swing-terminal/blob/main/images/terminal.png)
