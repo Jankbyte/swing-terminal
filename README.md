@@ -4,6 +4,15 @@ Thats looks like:
 
 ![alt text](https://github.com/Jankbyte/swing-terminal/blob/main/images/terminal.png)
 ## :hammer: Using in code
-You can find base example [here].
-
+You can find base example [here]. You can just integrate that into JFrame:
+```
+JFrame frame = new JFrame();
+frame.setLayout(new BorderLayout());
+frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+Terminal terminal = new Terminal(100, 30);
+frame.add(terminal, BorderLayout.CENTER);
+frame.setVisible(true);
+frame.setResizable(false);
+frame.pack();
+```
 [here]: https://github.com/Jankbyte/swing-terminal/tree/main/app/src/main/java/ru/jankbyte/terminal
